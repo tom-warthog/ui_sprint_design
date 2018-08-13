@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 300px;
+}
+
+.navbar:before, .navbar:after {
+  content: none;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 20px;
+  li {
+    padding: 10px;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.fa-music {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}

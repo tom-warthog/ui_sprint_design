@@ -1,0 +1,26 @@
+.card {
+  height: 250px;
+  width: 250px;
+  position: relative;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6q4gZ9fz2PVzZE3BsFtWL5ULpxeWpLNh3mrArtNt7GUfi8ZbhFg);
+  background-size: cover;
+  color: white;
+}
+
+.card-avatar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
