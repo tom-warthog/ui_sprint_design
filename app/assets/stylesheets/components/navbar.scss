@@ -23,7 +23,20 @@ a:hover {
   text-decoration: none;
 }
 
-.fa-music {
+.fa-first-order {
   margin-left: 20px;
   margin-bottom: 5px;
+}
+
+.navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+  font-style: italic;
+  margin-left: 25px;
+  color:#205378;
 }

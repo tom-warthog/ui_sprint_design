@@ -5,6 +5,8 @@
   background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6q4gZ9fz2PVzZE3BsFtWL5ULpxeWpLNh3mrArtNt7GUfi8ZbhFg);
   background-size: cover;
   color: white;
+  border-radius: 5%;
+  margin-left: 10px;
 }
 
 .card-avatar {
@@ -23,4 +25,9 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
+}
+
+.cards-list {
+  display: flex;
+  justify-content: center;
 }

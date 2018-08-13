@@ -4,14 +4,19 @@
   clear: both;
   margin: 35px 0 25px;
   background: white;
+  opacity: 0.85;
 }
 .tab {
   float: left;
-    margin-bottom: 40px;
+  margin-bottom: 40px;
+  height: 60px;
 }
+
+
 .tab label {
   height: 50px;
   width: 200px;
+  font-size: 18px;
   background: #eee;
   padding: 10px;
   border: 1px solid #ccc;
@@ -19,9 +24,15 @@
   text-align: center;
   position: relative;
   left: 1px;
-  top: -35px;
+  top: -52px;
   -webkit-transition: background-color .17s linear;
 }
+
+.tab label:hover {
+  background:rgb(123, 140, 149);
+}
+
+
 .tab [type=radio] {
   display: none;
 }
@@ -39,11 +50,15 @@
   opacity: 1;
 }
 [type=radio]:checked ~ label {
-  background: white;
+  background: rgb(108, 147, 161);
   border-bottom: 1px solid white;
   z-index: 2;
 }
 [type=radio]:checked ~ label ~ .content {
   z-index: 1;
   opacity: 1;
+}
+
+.biography {
+  font-size: 16px;
 }
