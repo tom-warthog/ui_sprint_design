@@ -9,6 +9,11 @@
   margin-left: 10px;
 }
 
+.card:hover {
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKOux8-MqKVJYN7u77on4Zegmd0735n3Ig2-ONGIEKL62PkeoH);
+  background-size: cover;
+}
+
 .card-avatar {
   position: absolute;
   top: 10px;
